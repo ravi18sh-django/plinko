@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Plincko } from "../component/Plincko";
 
 export const Game = () => {
-    const [activeTab, setActiveTab] = useState("manual"); // Set default active tab
+    const [activeTab, setActiveTab] = useState("manual"); 
     const [balance, setBalance] = useState(1000);
     const [amount, setAmount] = useState(100);
     const [iplay, setIplay] = useState(false);

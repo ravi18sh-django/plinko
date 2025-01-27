@@ -7,10 +7,10 @@ export function Plincko({ play, numofobstacles }) {
   const canvasRef = useRef(null);
   const ballManagerRef = useRef(null); 
   const [outputs, setOutputs] = useState(
-    Array.from({ length: numofobstacles }, () => []) // Initialize based on numofobstacles
+    Array.from({ length: numofobstacles }, () => []) 
   );
 
-  // Update outputs whenever the numofobstacles changes
+  
   useEffect(() => {
     setOutputs(Array.from({ length: numofobstacles }, () => []));
   }, [numofobstacles]);
@@ -18,11 +18,11 @@ export function Plincko({ play, numofobstacles }) {
   useEffect(() => {
     if (canvasRef.current) {
       ballManagerRef.current = new BallManager(canvasRef.current, (index, startX) => {
-        // Update the outputs array with new values for the specific index
+        
         setOutputs((prevOutputs) => {
-          const newOutputs = [...prevOutputs]; // Copy previous outputs
-          newOutputs[index] = [...newOutputs[index], startX]; // Add startX to the appropriate index
-          return newOutputs; // Return the updated array
+          const newOutputs = [...prevOutputs]; 
+          newOutputs[index] = [...newOutputs[index], startX]; 
+          return newOutputs; 
         });
       }, numofobstacles); 
     }

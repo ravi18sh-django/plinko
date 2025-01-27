@@ -1,10 +1,10 @@
 #root {
   width: 100%;
   background-image: url('/images/BG.png');
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-size: cover; /* Ensures the image covers the entire container */
-  background-position: center; /* Centers the image */
-  /* text-align: center; */
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+  
 }
 
 
@@ -16,14 +16,14 @@
 
 .cust:first-of-type {
   border-radius: 10px 0px 0px 15px;
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); /* White shadow */
-  transition: box-shadow 0.3s ease-in-out; /* Smooth transition */
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
+  transition: box-shadow 0.3s ease-in-out; 
 }
 .cust:nth-of-type(2) {
-  /* Your styles for the second button with the 'cust' class */
+  
   border-radius: 0px 10px 15px 0px;
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); /* White shadow */
-  transition: box-shadow 0.3s ease-in-out; /* Smooth transition */
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3); 
+  transition: box-shadow 0.3s ease-in-out; 
 }
 
 
