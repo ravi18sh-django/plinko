@@ -1,4 +1,4 @@
-import { pad } from "./padding";
+import { pad } from "./Padding";
 
 export const WIDTH = 800; 
 export const HEIGHT = 800; 

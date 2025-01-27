@@ -1,6 +1,6 @@
 import { HEIGHT, WIDTH, ballRadius, obstacleRadius, sinkWidth } from "../Constants";
-import { createObstacles, createSinks } from "../objects";
-import { pad, unpad } from "../padding";
+import { createObstacles, createSinks } from "../Objects";
+import { pad, unpad } from "../Padding";
 import { Ball } from "./Ball";
 
 export class BallManager {

@@ -1,5 +1,5 @@
-import { gravity, horizontalFriction, verticalFriction } from "../constants";
-import { pad, unpad } from "../padding";
+import { gravity, horizontalFriction, verticalFriction } from "../Constants";
+import { pad, unpad } from "../Padding";
 
 export class Ball {
   constructor(x, y, radius, color, ctx, obstacles, sinks, onFinish) {

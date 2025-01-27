@@ -1,5 +1,5 @@
 import { HEIGHT, NUM_SINKS, WIDTH, obstacleRadius, sinkWidth } from "./Constants";
-import { pad } from "./padding";
+import { pad } from "./Padding";
 
 const MULTIPLIERS = {
     1: 22,
