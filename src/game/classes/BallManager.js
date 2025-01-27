@@ -1,4 +1,4 @@
-import { HEIGHT, WIDTH, ballRadius, obstacleRadius, sinkWidth } from "../constants";
+import { HEIGHT, WIDTH, ballRadius, obstacleRadius, sinkWidth } from "../Constants";
 import { createObstacles, createSinks } from "../objects";
 import { pad, unpad } from "../padding";
 import { Ball } from "./Ball";
